@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERS</title>
+    <!-- css ni ulash -->
+    <link rel="stylesheet" href="uzbCoders/uzbCoders.css">
+</head>
+<body>
+    <section class="showcase ">
+         <header>
+             <h2 class="logo">PROGERAMMING</h2>
+             <div class="toggle"></div>
+         </header>
+          <img src="img/webpage1.jpg" alt="">
+         <div class="overlay"></div>
+          <div class="text">
+              <h2> <span class="one"> U</span><span class="two"> Z</span><span class="three"> B</span>  CODERS</h2>
+              <H3>EXPLORING THE WORLD</H3>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit quasi cupiditate porro laborum debitis maiores deserunt architecto repellat labore.</P>
+              <a href="#"> JOIN US !</a>
+            </div>
+    </section>
+    <div class="menu">
+        <!-- navbarni boshlamishi -->
+        <ul>
+           
+            <div>
+                <li> <a href="../contactus/contactus.html"> Contact US</a></li>
+            </div>
+            <div>
+                <li> <a href="../ecommerce website/index.html">Main Shop</a></li>
+            </div>
+            
+            <div>
+                <li> <a href="../announcement/announcment.html"> New Projucts</a></li>
+            </div>
+            <div>
+                <li> <a href="../Admin/login/admin.html">ADMIN </a></li>
+            </div>
+        </ul>
+    </div>
+    <script>
+        // biriikita javascript funksiyalarini qushamiz
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
